@@ -35,6 +35,7 @@
   <ItemGroup>
     <Compile Include="IBuilderRegistrationService.cs" />
     <Compile Include="ISetupService.cs" />
+    <Compile Include="IStartApplicationHelper.cs" />
     <Compile Include="IStartApplicationService.cs" />
     <Compile Include="ITeardownService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
