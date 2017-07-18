@@ -12,6 +12,6 @@ namespace LogoFX.Client.Testing.Contracts
         /// </summary>
         /// <typeparam name="TService">The type of the service.</typeparam>
         /// <param name="builder">The builder.</param>
-        void RegisterBuilder<TService>(FakeBuilderBase<TService> builder) where TService : class;
+        void RegisterBuilder<TService>(IBuilder<TService> builder) where TService : class;
     }
 }

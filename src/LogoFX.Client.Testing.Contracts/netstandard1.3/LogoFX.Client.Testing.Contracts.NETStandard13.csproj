@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>LogoFX.Client.Testing.Contracts</AssemblyName>
+    <RootNamespace>LogoFX.Client.Testing.Contracts</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\netstandard1.3\Release</OutputPath>
+    <DocumentationFile>..\..\Bin\netstandard1.3\Release\netstandard1.3\LogoFX.Client.Testing.Contracts.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\IBuilderRegistrationService.cs" Link="IBuilderRegistrationService.cs" />
+    <Compile Include="..\src\ISetupService.cs" Link="ISetupService.cs" />
+    <Compile Include="..\src\IStartApplicationHelper.cs" Link="IStartApplicationHelper.cs" />
+    <Compile Include="..\src\IStartApplicationService.cs" Link="IStartApplicationService.cs" />
+    <Compile Include="..\src\ITeardownService.cs" Link="ITeardownService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Attest.Fake.Builders" Version="1.2.0-rc1" />
+  </ItemGroup>
+
+</Project>
