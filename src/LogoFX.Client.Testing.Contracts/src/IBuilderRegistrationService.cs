@@ -1,4 +1,4 @@
-﻿using Attest.Fake.Builders;
+﻿using Solid.Patterns.Builder;
 
 namespace LogoFX.Client.Testing.Contracts
 {

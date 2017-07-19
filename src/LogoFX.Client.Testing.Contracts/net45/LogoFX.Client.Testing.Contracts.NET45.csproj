@@ -32,10 +32,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Attest.Fake.Builders, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Attest.Fake.Builders.1.2.0-rc1\lib\net45\Attest.Fake.Builders.dll</HintPath>
+      <HintPath>..\..\packages\Attest.Fake.Builders.1.2.0-rc2\lib\net45\Attest.Fake.Builders.dll</HintPath>
     </Reference>
     <Reference Include="Attest.Fake.Core, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Attest.Fake.Core.1.2.0-rc1\lib\net45\Attest.Fake.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Patterns.Builder, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Solid.Patterns.Builder.1.2.0-rc2\lib\net45\Solid.Patterns.Builder.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,14 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\src\IApplicationFacade.cs">
+      <Link>IApplicationFacade.cs</Link>
+    </Compile>
     <Compile Include="..\src\IBuilderRegistrationService.cs">
       <Link>IBuilderRegistrationService.cs</Link>
     </Compile>
     <Compile Include="..\src\ISetupService.cs">
       <Link>ISetupService.cs</Link>
-    </Compile>
-    <Compile Include="..\src\IStartApplicationHelper.cs">
-      <Link>IStartApplicationHelper.cs</Link>
     </Compile>
     <Compile Include="..\src\IStartApplicationService.cs">
       <Link>IStartApplicationService.cs</Link>
