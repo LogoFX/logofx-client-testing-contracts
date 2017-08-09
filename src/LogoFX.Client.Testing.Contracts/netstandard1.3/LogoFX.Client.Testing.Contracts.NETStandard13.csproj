@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>LogoFX.Client.Testing.Contracts</AssemblyName>
+    <RootNamespace>LogoFX.Client.Testing.Contracts</RootNamespace>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\netstandard1.3\Release</OutputPath>
+    <DocumentationFile>..\..\Bin\netstandard1.3\Release\netstandard1.3\LogoFX.Client.Testing.Contracts.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\IApplicationFacade.cs" Link="IApplicationFacade.cs" />
+    <Compile Include="..\src\IBuilderRegistrationService.cs" Link="IBuilderRegistrationService.cs" />
+    <Compile Include="..\src\ISetupService.cs" Link="ISetupService.cs" />
+    <Compile Include="..\src\IStartApplicationService.cs" Link="IStartApplicationService.cs" />
+    <Compile Include="..\src\ITeardownService.cs" Link="ITeardownService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Solid.Patterns.Builder" Version="1.2.0-rc2" />
+  </ItemGroup>
+
+</Project>
