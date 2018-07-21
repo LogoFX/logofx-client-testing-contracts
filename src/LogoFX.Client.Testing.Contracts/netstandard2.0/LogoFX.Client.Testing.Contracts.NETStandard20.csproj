@@ -22,15 +22,10 @@
 
   <ItemGroup>
     <Compile Include="..\src\IApplicationFacade.cs" Link="IApplicationFacade.cs" />
-    <Compile Include="..\src\IBuilderRegistrationService.cs" Link="IBuilderRegistrationService.cs" />
     <Compile Include="..\src\ISetupService.cs" Link="ISetupService.cs" />
     <Compile Include="..\src\IStartApplicationService.cs" Link="IStartApplicationService.cs" />
     <Compile Include="..\src\IStopApplicationService.cs" Link="IStopApplicationService.cs" />
     <Compile Include="..\src\ITeardownService.cs" Link="ITeardownService.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Solid.Patterns.Builder" Version="1.2.1-rc3" />
   </ItemGroup>
 
 </Project>
