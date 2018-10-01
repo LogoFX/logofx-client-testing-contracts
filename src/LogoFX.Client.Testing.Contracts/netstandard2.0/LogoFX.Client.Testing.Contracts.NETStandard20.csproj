@@ -17,15 +17,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="IStartClientApplicationService.cs" />
     <Compile Remove="IStopApplicationService.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="..\src\IApplicationFacade.cs" Link="IApplicationFacade.cs" />
-    <Compile Include="..\src\ISetupService.cs" Link="ISetupService.cs" />
     <Compile Include="..\src\IStartApplicationService.cs" Link="IStartApplicationService.cs" />
+    <Compile Include="..\src\IStartClientApplicationService.cs" Link="IStartClientApplicationService.cs" />
     <Compile Include="..\src\IStopApplicationService.cs" Link="IStopApplicationService.cs" />
-    <Compile Include="..\src\ITeardownService.cs" Link="ITeardownService.cs" />
   </ItemGroup>
 
 </Project>
