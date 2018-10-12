@@ -22,10 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="..\src\IApplicationFacade.cs" Link="IApplicationFacade.cs" />
-    <Compile Include="..\src\IStartApplicationService.cs" Link="IStartApplicationService.cs" />
     <Compile Include="..\src\IStartClientApplicationService.cs" Link="IStartClientApplicationService.cs" />
-    <Compile Include="..\src\IStopApplicationService.cs" Link="IStopApplicationService.cs" />
   </ItemGroup>
 
 </Project>
