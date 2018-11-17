@@ -12,17 +12,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\..\Bin\netstandard2.0\Release</OutputPath>
-    <DocumentationFile>..\..\Bin\netstandard2.0\Release\LogoFX.Client.Testing.Contracts.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="IStartClientApplicationService.cs" />
-    <Compile Remove="IStopApplicationService.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="..\src\IStartClientApplicationService.cs" Link="IStartClientApplicationService.cs" />
-  </ItemGroup>
+    <OutputPath>..\Bin\netstandard2.0\Release</OutputPath>
+    <DocumentationFile>..\Bin\netstandard2.0\Release\LogoFX.Client.Testing.Contracts.xml</DocumentationFile>
+  </PropertyGroup>  
 
 </Project>
