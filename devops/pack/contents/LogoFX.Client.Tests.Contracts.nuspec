@@ -14,5 +14,5 @@
 Start Client Application Service - used to start the client application.</description>
     <summary>LogoFX Client Testing Contracts containing contracts for Client Test Services.</summary>
     <releaseNotes>Updated dependent packages</releaseNotes>
-  </metadata> 
+  </metadata>
 </package>
