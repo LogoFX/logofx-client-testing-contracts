@@ -14,5 +14,7 @@
 Start Client Application Service - used to start the client application.</description>
     <summary>LogoFX Client Testing Contracts containing contracts for Client Test Services.</summary>
     <releaseNotes>Updated dependent packages</releaseNotes>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/logofx-client-testing-contracts" />
   </metadata>
 </package>
