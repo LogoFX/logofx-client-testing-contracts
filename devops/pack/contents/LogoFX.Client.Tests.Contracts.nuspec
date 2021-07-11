@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>LogoFX.Client.Tests.Contracts</id>
-    <version>2.2.0</version>
+    <version>2.2.1-rc1</version>
     <title>LogoFX.Client.Testing.Contracts</title>
     <authors>Gennady Verdel</authors>
     <owners>Gennady Verdel</owners>
@@ -13,7 +13,8 @@
     <description>LogoFX Client Testing Contracts containing contracts for the following Test Services:
 Start Client Application Service - used to start the client application.</description>
     <summary>LogoFX Client Testing Contracts containing contracts for Client Test Services.</summary>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+    </releaseNotes>
     <tags>framework logofx dotnet</tags>
     <repository type="Open Source" url="https://github.com/LogoFX/logofx-client-testing-contracts" />
   </metadata>
