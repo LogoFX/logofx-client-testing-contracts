@@ -9,3 +9,5 @@ Contains contracts for Client Test Services.
 
 [Get package](https://www.nuget.org/packages/LogoFX.Client.Tests.Contracts)
 
+This repository is archived. Its functionality has been moved to https://github.com/LogoFX/testing
+
